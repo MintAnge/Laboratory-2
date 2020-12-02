@@ -1,0 +1,15 @@
+﻿<Window x:Class="L2.Message"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L2"
+        mc:Ignorable="d"
+        Title="Message" Height="219.304" Width="315.823">
+    <Grid>
+        <TextBox x:Name="textBox1" Margin="10,54,9.6,98.6" Text="D:\"/>
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="10,10,0,0" TextWrapping="Wrap" Text="Файл не существует, пожалуйста, укажите путь для сохранения файла" VerticalAlignment="Top" Width="290"/>
+        <Button x:Name="s" Content="Сохранить" HorizontalAlignment="Left" Height="37" Margin="88,109,0,0" VerticalAlignment="Top" Width="124" Click="Button_Click"/>
+
+    </Grid>
+</Window>
